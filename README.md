@@ -29,8 +29,8 @@ GET     ```/{id}``` - getSpecific Client
 DELETE     ```/{id}``` - delete Specific Client    
 
 Execute From docker     
-```docker run -p 8080:8080 -it fengyuanyang/basiccrudspringboot:1.3 java -jar /springboot-0.0.1-SNAPSHOT.jar```
-docker run -p 8080:8080  -it maven:3.6.3-openjdk-8 java -jar /spring/target/springboot-0.0.1-SNAPSHOT.jar
+```docker run -p 8080:8080 -it fengyuanyang/basiccrudspringboot:1.3 java -jar /springboot-0.0.1-SNAPSHOT.jar```		
+
 Swagger URL     
 http://localhost:8080/swagger-ui.html
 
